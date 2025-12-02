@@ -2,9 +2,13 @@
 title: Mengenal TypeScript untuk Pemula
 date: 2025-01-25
 description: Panduan memulai TypeScript dari nol hingga memahami konsep type safety dalam pengembangan aplikasi JavaScript.
+image: https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=400&fit=crop
 author: Budi Santoso
+authorImage: https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face
+authorRole: Software Engineer
 category: Programming
 tags: ["typescript", "javascript", "programming"]
+readingTime: 8 min read
 ---
 
 # Mengenal TypeScript untuk Pemula

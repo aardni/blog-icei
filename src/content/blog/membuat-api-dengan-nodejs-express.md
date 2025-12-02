@@ -2,9 +2,13 @@
 title: Membuat REST API dengan Node.js dan Express
 date: 2025-02-05
 description: Tutorial step-by-step membangun REST API yang scalable menggunakan Node.js, Express, dan best practices modern.
+image: https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=400&fit=crop
 author: Eko Prasetyo
+authorImage: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face
+authorRole: Backend Developer
 category: Backend
 tags: ["nodejs", "express", "api", "backend"]
+readingTime: 10 min read
 ---
 
 # Membuat REST API dengan Node.js dan Express

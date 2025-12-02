@@ -2,9 +2,13 @@
 title: Git Workflow untuk Tim Development
 date: 2025-02-10
 description: Strategi dan best practices menggunakan Git dalam tim untuk kolaborasi yang efektif dan minim konflik.
+image: https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=800&h=400&fit=crop
 author: Faisal Rahman
+authorImage: https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&h=150&fit=crop&crop=face
+authorRole: DevOps Engineer
 category: DevOps
 tags: ["git", "workflow", "collaboration"]
+readingTime: 9 min read
 ---
 
 # Git Workflow untuk Tim Development

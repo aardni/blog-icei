@@ -2,9 +2,13 @@
 title: State Management di React Modern
 date: 2025-02-20
 description: Perbandingan berbagai solusi state management di React mulai dari useState hingga Zustand dan Jotai.
+image: https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop
 author: Hana Safitri
+authorImage: https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face
+authorRole: Frontend Developer
 category: React
 tags: ["react", "state management", "zustand", "jotai"]
+readingTime: 7 min read
 ---
 
 # State Management di React Modern

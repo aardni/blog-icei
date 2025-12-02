@@ -2,9 +2,13 @@
 title: Keamanan Aplikasi Web yang Wajib Diketahui
 date: 2025-02-25
 description: Panduan praktis mengamankan aplikasi web dari serangan umum seperti XSS, CSRF, SQL Injection, dan lainnya.
+image: https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop
 author: Irfan Maulana
+authorImage: https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face
+authorRole: Security Engineer
 category: Security
 tags: ["security", "web security", "owasp"]
+readingTime: 9 min read
 ---
 
 # Keamanan Aplikasi Web yang Wajib Diketahui

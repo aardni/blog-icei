@@ -2,9 +2,13 @@
 title: Membangun Website Modern dengan Astro
 date: 2025-01-15
 description: Pelajari cara membangun website yang cepat dan efisien menggunakan framework Astro dengan pendekatan island architecture.
+image: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop
 author: Ahmad Rizki
+authorImage: https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face
+authorRole: Full Stack Developer
 category: Tutorial
 tags: ["astro", "web development", "javascript"]
+readingTime: 5 min read
 ---
 
 # Membangun Website Modern dengan Astro

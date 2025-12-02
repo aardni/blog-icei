@@ -2,9 +2,13 @@
 title: Desain Sistem yang Scalable
 date: 2025-03-01
 description: Prinsip dan pola arsitektur untuk membangun sistem yang dapat menangani jutaan pengguna dengan performa optimal.
+image: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop
 author: Joko Widodo
+authorImage: https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150&h=150&fit=crop&crop=face
+authorRole: System Architect
 category: Architecture
 tags: ["system design", "scalability", "architecture"]
+readingTime: 10 min read
 ---
 
 # Desain Sistem yang Scalable

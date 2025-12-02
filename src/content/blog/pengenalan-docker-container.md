@@ -2,9 +2,13 @@
 title: Pengenalan Docker dan Containerization
 date: 2025-02-15
 description: Memahami konsep containerization dan cara menggunakan Docker untuk development dan deployment aplikasi.
+image: https://images.unsplash.com/photo-1605745341112-85968b19335b?w=800&h=400&fit=crop
 author: Gilang Pratama
+authorImage: https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face
+authorRole: Cloud Engineer
 category: DevOps
 tags: ["docker", "container", "devops"]
+readingTime: 8 min read
 ---
 
 # Pengenalan Docker dan Containerization

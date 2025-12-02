@@ -2,9 +2,13 @@
 title: Panduan Lengkap Tailwind CSS
 date: 2025-01-20
 description: Menguasai utility-first CSS framework untuk membuat desain yang konsisten dan responsive dengan cepat.
+image: https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=800&h=400&fit=crop
 author: Sarah Putri
+authorImage: https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face
+authorRole: UI/UX Designer
 category: CSS
 tags: ["tailwind", "css", "design"]
+readingTime: 6 min read
 ---
 
 # Panduan Lengkap Tailwind CSS

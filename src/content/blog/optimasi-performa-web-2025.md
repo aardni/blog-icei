@@ -2,9 +2,13 @@
 title: Optimasi Performa Web di Tahun 2025
 date: 2025-02-01
 description: Teknik dan strategi terbaru untuk meningkatkan Core Web Vitals dan pengalaman pengguna website.
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop
 author: Diana Kusuma
+authorImage: https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face
+authorRole: Performance Engineer
 category: Performance
 tags: ["performance", "web vitals", "optimization"]
+readingTime: 7 min read
 ---
 
 # Optimasi Performa Web di Tahun 2025
