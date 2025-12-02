@@ -1,0 +1,66 @@
+---
+import Welcome from "../../components/Welcome.astro";
+import Layout from "../../layouts/Layout.astro";
+import "../../styles/global.css";
+
+import fs from "fs";
+import { marked } from "marked";
+
+const { slug } = Astro.params;
+
+const filePath = `./src/posts/${slug}.md`;
+const fileContent = fs.readFileSync(filePath, "utf-8");
+
+// Extract frontmatter + body manually
+const frontmatterRegex = /^---([\s\S]*?)---/;
+const match = fileContent.match(frontmatterRegex);
+
+if (!match) {
+  throw new Error(`Invalid frontmatter in ${filePath}`);
+}
+
+const frontmatterRaw = match[1];
+const body = fileContent.replace(frontmatterRegex, "");
+
+const frontmatter = Object.fromEntries(
+  frontmatterRaw
+    .trim()
+    .split("\n")
+    .map((line) => line.split(":").map((x) => x.trim()))
+);
+
+// Convert markdown → HTML
+const html = marked(body);
+---
+
+<Layout>
+  <div class="bg-white py-8 sm:py-12 lg:py-16">
+    <div
+      class="mx-auto max-w-4xl px-6 lg:px-8 flex flex-col justify-center items-center"
+    >
+      <div>
+        <img
+          class="h-120 w-200 rounded-xl mb-8"
+          src="/src/assets/images/collectetri.jpg"
+          alt=""
+        />
+        <div class="mx-auto max-w-2xl lg:mx-0">
+          <h2
+            class="text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl"
+          >
+            {frontmatter.title}
+          </h2>
+          <p
+            class="text-md font-semibold tracking-tight text-pretty text-gray-900"
+          >
+            {frontmatter.date}
+          </p>
+        </div>
+        <div class="mt-6">
+          <div set:html={html} />
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi possimus magnam nemo similique modi? Ipsam inventore officiis cum maxime laudantium nisi quisquam neque explicabo autem amet voluptatem ex, reiciendis iure.</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
