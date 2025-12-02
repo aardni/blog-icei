@@ -3,7 +3,9 @@
     "allow": [
       "mcp__ide__getDiagnostics",
       "Bash(npm run build:*)",
-      "Bash(npx astro sync:*)"
+      "Bash(npx astro sync:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
